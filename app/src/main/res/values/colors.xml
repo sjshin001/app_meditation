@@ -1,0 +1,65 @@
+<resources>
+    <!-- New theme colors: Sky Blue, Grey, Black -->
+
+    <!-- Primary (Sky Blue) -->
+    <color name="md_theme_primary">#108AC5</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#B3E5FC</color>
+    <color name="md_theme_onPrimaryContainer">#01579B</color>
+
+    <!-- Secondary (Grey) -->
+    <color name="md_theme_secondary">#90A4AE</color>
+    <color name="md_theme_onSecondary">#212121</color>
+    <color name="md_theme_secondaryContainer">#C5E7F2</color>
+    <color name="md_theme_onSecondaryContainer">#051F26</color>
+
+    <!-- Tertiary (Another Grey) -->
+    <color name="md_theme_tertiary">#B0BEC5</color>
+    <color name="md_theme_onTertiary">#212121</color>
+    <color name="md_theme_tertiaryContainer">#D3E5FF</color>
+    <color name="md_theme_onTertiaryContainer">#001D36</color>
+
+    <!-- Error -->
+    <color name="md_theme_error">#B00020</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_errorContainer">#FFDAD6</color>
+    <color name="md_theme_onErrorContainer">#410002</color>
+
+    <!-- Background (Light Grey) -->
+    <color name="md_theme_background">#ECEFF1</color>
+    <color name="md_theme_onBackground">#212121</color>
+
+    <!-- Surface (White) for Cards and Footer -->
+    <color name="md_theme_surface">#FFFFFF</color>
+    <color name="md_theme_onSurface">#212121</color>
+
+    <!-- Other UI colors -->
+    <color name="md_theme_surfaceVariant">#CFD8DC</color>
+    <color name="md_theme_onSurfaceVariant">#455A64</color>
+    <color name="md_theme_outline">#78909C</color>
+    <color name="md_theme_outlineVariant">#C0C8CD</color>
+    <color name="md_theme_scrim">#000000</color>
+
+    <!-- Inverse colors for dark theme components on light theme -->
+    <color name="md_theme_inverseSurface">#37474F</color>
+    <color name="md_theme_inverseOnSurface">#ECEFF1</color>
+    <color name="md_theme_inversePrimary">#81D4FA</color>
+
+    <color name="md_theme_primaryFixed">#B3E5FC</color>
+    <color name="md_theme_onPrimaryFixed">#01579B</color>
+    <color name="md_theme_primaryFixedDim">#81D4FA</color>
+    <color name="md_theme_onPrimaryFixedVariant">#01497B</color>
+    <color name="md_theme_secondaryFixed">#C5E7F2</color>
+    <color name="md_theme_onSecondaryFixed">#051F26</color>
+    <color name="md_theme_secondaryFixedDim">#A9D0DB</color>
+    <color name="md_theme_onSecondaryFixedVariant">#1F4853</color>
+    <color name="md_theme_tertiaryFixed">#D3E5FF</color>
+    <color name="md_theme_onTertiaryFixed">#001D36</color>
+    <color name="md_theme_tertiaryFixedDim">#ABC7FF</color>
+    <color name="md_theme_onTertiaryFixedVariant">#003366</color>
+    <color name="md_theme_surfaceDim">#D9DADD</color>
+    <color name="md_theme_surfaceBright">#FAFBFD</color>
+
+    <color name="purple_dark">#512DA8</color>
+    <color name="purple_light">#9575CD</color>
+</resources>

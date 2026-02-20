@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bowFragment">
+
+    <fragment
+        android:id="@+id/bowFragment"
+        android:name="com.app.meditation.BowFragment"
+        android:label="절"
+        tools:layout="@layout/fragment_bow">
+        <action
+            android:id="@+id/action_bowFragment_to_editPlanFragment"
+            app:destination="@id/editPlanFragment" />
+        <action
+            android:id="@+id/action_bowFragment_to_todayRecordFragment"
+            app:destination="@+id/todayRecordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/meditationFragment"
+        android:name="com.app.meditation.MeditationFragment"
+        android:label="명상"
+        tools:layout="@layout/fragment_meditation">
+        <action
+            android:id="@+id/action_meditationFragment_to_addMeditationFragment"
+            app:destination="@+id/addMeditationFragment" />
+        <action
+            android:id="@+id/action_meditationFragment_to_meditationDetailFragment"
+            app:destination="@+id/meditationDetailFragment" />
+        <action
+            android:id="@+id/action_meditationFragment_to_meditationRecordFragment"
+            app:destination="@+id/meditationRecordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.app.meditation.HistoryFragment"
+        android:label="100일 정진"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFragment_to_progressRecordFragment"
+            app:destination="@+id/progressRecordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMeditationFragment"
+        android:name="com.app.meditation.AddMeditationFragment"
+        android:label="새로운 명상"
+        tools:layout="@layout/fragment_add_meditation">
+        <argument
+            android:name="meditation_item"
+            app:argType="com.app.meditation.Meditation"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/meditationDetailFragment"
+        android:name="com.app.meditation.MeditationDetailFragment"
+        android:label="명상 시작"
+        tools:layout="@layout/fragment_meditation_detail">
+        <argument
+            android:name="meditation_item"
+            app:argType="com.app.meditation.Meditation" />
+    </fragment>
+    <fragment
+        android:id="@+id/editPlanFragment"
+        android:name="com.app.meditation.EditPlanFragment"
+        android:label="운동횟수 수정"
+        tools:layout="@layout/fragment_edit_plan" />
+    <fragment
+        android:id="@+id/todayRecordFragment"
+        android:name="com.app.meditation.TodayRecordFragment"
+        android:label="금일운동 실적"
+        tools:layout="@layout/fragment_today_record" />
+    <fragment
+        android:id="@+id/progressRecordFragment"
+        android:name="com.app.meditation.ProgressRecordFragment"
+        android:label="정진 기록"
+        tools:layout="@layout/fragment_progress_record" >
+        <argument
+            android:name="round"
+            app:argType="integer"/>
+        <argument
+            android:name="day"
+            app:argType="integer"/>
+    </fragment>
+    <fragment
+        android:id="@+id/meditationRecordFragment"
+        android:name="com.app.meditation.MeditationRecordFragment"
+        android:label="명상 기록"
+        tools:layout="@layout/fragment_meditation_record" />
+</navigation>

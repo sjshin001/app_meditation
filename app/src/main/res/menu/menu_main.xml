@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bowFragment"
+        android:icon="@drawable/ic_waving_hand"
+        android:title="절" />
+    <item
+        android:id="@+id/meditationFragment"
+        android:icon="@drawable/ic_self_improvement"
+        android:title="명상" />
+    <item
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/ic_timelin"
+        android:title="정진" />
+</menu>
